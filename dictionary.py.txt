@@ -1,0 +1,31 @@
+car={
+"brand":"ford",
+"electric":"false",
+"year":2015,
+"colors":["red","white","blue"]
+}
+print(car)
+
+car= {
+ "brand":"ford",
+ "model":"mustang",
+ "year":1964,
+}
+
+if "model" in car:
+  print("name")
+
+car["year"] = 2018
+print(car)
+car["brand"] = "PRADO"
+print(car)
+car["color"] = "red"
+print(car)
+car["color"] =("red","blue","green")
+print(car)
+car.pop("model")
+print(car)
+car.popitem()
+print(car)
+car.clear()
+print(car)
